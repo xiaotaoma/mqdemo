@@ -1,17 +1,6 @@
-package com.zkzn.rabbitmq.consumer.service;
+package com.mxt.rabbitmq.consumer.service;
 
-import com.rabbitmq.client.Channel;
-import org.springframework.amqp.core.AcknowledgeMode;
-import org.springframework.amqp.core.Message;
-import org.springframework.amqp.core.Queue;
-import org.springframework.amqp.rabbit.connection.ConnectionFactory;
-import org.springframework.amqp.rabbit.core.ChannelAwareMessageListener;
-import org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Service;
-
-import java.io.IOException;
 
 @Service
 public class ConsumerService {
